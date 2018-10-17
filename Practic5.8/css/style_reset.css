@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+div {
+	height: 600px;
+	width: 200px;
+	border: 1px solid gray;
+	display: inline-block;
+	vertical-align: top;
+	margin: 80px 30px 30px 30px;
+	border-radius: 2%;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+
+.heading {
+	height: 50px;
+	width: 100%;
+	line-height:50px;
+	text-indent: 20px;
+	background: lightblue;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.footing {
+	height: 50px;
+	width: 100%;
+	line-height:50px;
+	text-indent: 20px;
+	background: lightblue;
+}
+
+p, h2 {
+	margin: 5px;
+}
