@@ -1,0 +1,85 @@
+@import url(reset.css);
+
+.main {
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.heading {
+	height: 50px;
+	line-height:50px;
+	text-indent: 20px;
+	background: rgb(135, 206, 250);
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+}
+
+.image-container {
+	height: 600px;
+	background-image: url(https://primamedia.gcdn.co/f/main/1166/1165335.jpg?ffbba46a89e69de02009346193a7c7bf);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.one, .two {
+	width: 600px;
+	border: 1px solid gray;
+	vertical-align: top;
+	margin: 80px 30px 30px 30px;
+	border-radius: 1%;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.picture {
+	height: 100px;
+	width: 600px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.text {
+	width: 600px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+
+
+.footing {
+	height: 50px;
+	line-height:50px;
+	text-indent: 20px;
+	background: rgb(135, 206, 250);
+}
+
+a {
+	margin-right: 10px;
+}
+
+h2 {
+	margin: 15px;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Arial', 'Helvetica', sans-serif;
+
+}
+p {
+	margin: 15px 15px;
+	font-size: 14px;
+	font-weight: bolder;
+	font-style: italic;
+	font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+.Baker {
+	height: 100px;
+	width: 100px;
+	float: left;
+}
